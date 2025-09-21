@@ -1,5 +1,7 @@
 number = int(input("Enter the size of the pattern: "))
-for i in range(number):
+i = number
+while (i > 0):
     for j in range(number):
         print('*', end='')
     print()
+    i -= 1
